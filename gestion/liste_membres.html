@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des membres</title>
+</head>
+<body>
+    <h1>Liste des membres</h1>
+    <ul>
+        {% for membre in membres %}
+        <li>{{ membre.nom }} ({{ membre.emprunts_actifs.count }} emprunts)</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'ajouter_membre' %}">Ajouter un membre</a>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "model": "gestion.membre",
+    "pk": 1,
+    "fields": {
+      "nom": "Alice Dupont",
+      "bloque": false
+    }
+  },
+  {
+    "model": "gestion.membre",
+    "pk": 2,
+    "fields": {
+      "nom": "Bob Martin",
+      "bloque": false
+    }
+  },
+  {
+    "model": "gestion.membre",
+    "pk": 3,
+    "fields": {
+      "nom": "Claire Leroy",
+      "bloque": true
+    }
+  },
+  {
+    "model": "gestion.media",
+    "pk": 1,
+    "fields": {
+      "titre": "Le Seigneur des Anneaux",
+      "type_media": "livre",
+      "disponible": true
+    }
+  },
+  {
+    "model": "gestion.media",
+    "pk": 2,
+    "fields": {
+      "titre": "Inception",
+      "type_media": "dvd",
+      "disponible": true
+    }
+  },
+  {
+    "model": "gestion.media",
+    "pk": 3,
+    "fields": {
+      "titre": "Thriller - Michael Jackson",
+      "type_media": "cd",
+      "disponible": true
+    }
+  },
+  {
+    "model": "gestion.media",
+    "pk": 4,
+    "fields": {
+      "titre": "Monopoly",
+      "type_media": "jeu",
+      "disponible": true
+    }
+  }
+]
