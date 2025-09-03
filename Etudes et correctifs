@@ -44,3 +44,6 @@ def menuMembre():
 D'après cette ébauche de code j'ai modifier afin d'avoir un seul objet qui possède plusieurs types,
 au lieu de créer un objet pour chaque média et gérer l'objet de manièere alternative en fonction de son type.
 De plus les différent menu en fonction de membre ou bibliothécaire sont des app séparé se regroupant dans une seul app donc plus claire et maintenable à long terme.
+
+De plus quelques données d'exemples on était saisie, la base de données est bien liée à l'application django.
+
